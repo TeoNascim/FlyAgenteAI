@@ -1,0 +1,5 @@
+{
+  "name": "FlyAgente AI - Busca de Passagens Inteligente",
+  "description": "Agente de IA avançado para busca de passagens aéreas em tempo real, utilizando busca do Google para encontrar os menores preços em dinheiro e milhas.",
+  "requestFramePermissions": []
+}
