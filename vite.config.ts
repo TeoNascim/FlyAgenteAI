@@ -5,12 +5,11 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   define: {
+    // Isso substitui process.env.API_KEY no código pelo valor real configurado no Netlify
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY)
   },
-  server: {
-    port: 3000
-  },
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    sourcemap: false
   }
 });
